@@ -1,0 +1,7 @@
+r_real_ytd_grafico_hl = 
+    IF(
+        SELECTEDVALUE(calendario[Nombre Corto Mes]) = SELECTEDVALUE(calendario_ur[Nombre Corto Mes]),
+        CALCULATE(
+            [r_real_ytd],
+            calendario[mes_cerrado] = 1
+        ))
