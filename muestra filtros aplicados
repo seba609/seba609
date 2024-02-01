@@ -1,0 +1,17 @@
+filtros_aplicados = 
+--año
+IF(
+    ISFILTERED(calendario[Año]),
+    VAR valores = VALUES(calendario[Año])
+    VAR lista = CONCATENATEX(valores, calendario[Año], UNICHAR(10)
+    )
+RETURN lista & UNICHAR(10)
+)&
+--mes
+IF(
+    ISFILTERED(calendario[Nombre Corto Mes]),
+    VAR valores = VALUES(calendario[Nombre Corto Mes])
+    VAR lista = CONCATENATEX(valores, calendario[Nombre Corto Mes], UNICHAR(10)
+    )
+RETURN lista & UNICHAR(10)
+)
