@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @seba609
-- 👀 I’m interested in Data Science, and aplications of IA models on mental Health
-- 🌱 I’m currently learning Tensor flow, pytorch and sentiment analysis
+- 👀 I’m interested in Data Science, and aplications of descriptive and predictive analisys
+- 🌱 I’m currently learning SQL, and Report Design.
 - 💞️ I’m looking to collaborate on machine learning and IA algorithms for predictive analysis
 - 📫 How to reach me sebastian.bravo.b@gmail.com
 
